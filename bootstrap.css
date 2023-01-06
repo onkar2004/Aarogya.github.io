@@ -1,0 +1,1093 @@
+
+/* FRONT PAGE CSS */
+
+body{
+    background: url('/image/WhatsApp\ Image\ 2022-12-27\ at\ 11.46.47\ AM.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.menu-bar {
+  background-color: rgb(0, 100, 0);
+  border-radius: 30px;
+  margin-top: 5px;
+}
+.menu-bar li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  overflow: auto;
+}
+
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: azure;
+}
+.active,
+.menu-bar ul li:hover {
+  background: #2bab0d;
+  border-radius: 3px;
+}
+.search {
+  float: right;
+  color: azure;
+  padding: 12px 75px;
+}
+.menu-bar input {
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
+.menu-bar li a:hover {
+  color: chartreuse;
+}
+
+.logo {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.title h1 {
+  color: chartreuse;
+  align-content: center;
+  text-align: center;
+  text-decoration-color: rgb(206, 40, 189);
+}
+
+.title {
+  margin-top: 15px;
+  border-style: double;
+  background-color: rgb(250, 215, 222);
+}
+
+.section {
+  margin-top: 30px;
+  color: chartreuse;
+  border-style: dotted;
+  text-align: center;
+}
+ul {
+  color: rgb(80, 197, 227);
+}
+
+.section-title{
+    text-align: center;
+    text-decoration:underline;
+}
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(13, 179, 13);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: center;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  text-align: center;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover {
+  background-color: #030a01;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+.sub-menu-2 ul {
+  list-style: none;
+}
+.sub-menu-2 ul li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: rgb(56, 237, 40);
+}
+.sub-menu-2 ul li a:hover {
+  color: #f1f132;
+}
+.sub-menu-2 ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 10px;
+}
+.sub-menu-2 ul li a {
+  padding: 3px 3px;
+  text-decoration: none;
+}
+.sub-menu-2 ul li:hover {
+  background-color: rgb(83, 71, 216);
+  border-radius: 3px;
+}
+
+.sub-menu-2{
+    float: right;
+    
+    margin-right: 100px;
+}
+.sub-menu-2-1 ul {
+    list-style: none;
+  }
+  .sub-menu-2-1 ul li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(56, 237, 40);
+  }
+  .sub-menu-2-1 ul li a:hover {
+    color: #f1f132;
+  }
+  .sub-menu-2-1 ul li {
+    width: 120px;
+    margin-left: 100px;
+    padding: 15px;
+  }
+  .sub-menu-2-1 ul li a {
+    padding: 3px 3px;
+    text-decoration: none;
+  }
+  .sub-menu-2-1 ul li:hover {
+    background-color: rgb(83, 71, 216);
+    border-radius: 3px;
+  }
+
+
+
+/* HEALTH INFORMATION CSS FILE */
+
+body .health_info{
+  background: url('/image/WhatsApp\ Image\ 2022-12-27\ at\ 11.46.47\ AM.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.home {
+  background-color: rgb(55, 55, 159);
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.home a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 5px;
+  padding: 3px 3px;
+}
+.home a:hover {
+  color: #f1f132;
+}
+.menu-h1 {
+  background-color: rgb(52, 52, 162);
+  padding: 15px 15px;
+  background-color: rgb(55, 55, 159);
+  border-radius: 12px;
+  margin-top: 10px;
+  color: #fff;
+}
+.health_tips{
+    margin-top: 20px;
+}
+
+img {
+  width: min-content;
+  height: 50px;
+}
+/* .h_t_1 a {
+  float: left;
+  text-decoration: none;
+} */
+fieldset img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+fieldset .h_t_1 a{
+    float: left;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+fieldset .h_t_1 a .h_t_1_1:hover{
+
+    text-decoration: underline;
+    color: bisque;
+}
+/* fieldset .heart{
+    margin: 0;
+    padding: 0;
+    float: left;
+} */
+
+fieldset .heart_health a{
+    float: left;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+fieldset .heart_health a .heart_control:hover{
+
+    text-decoration: underline;
+    color: bisque;
+}
+
+fieldset .hiv_1 a{
+    float: left;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+fieldset .hiv_1 a .hiv_2:hover{
+
+    text-decoration: underline;
+    color: bisque;
+}
+
+fieldset .cancer_1 a{
+    float: left;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+fieldset .cancer_1 a .cancer_2:hover{
+
+    text-decoration: underline;
+    color: bisque;
+}
+
+
+/* 
+HEALTH TOPIC CSS FILE */
+
+body .health_topic{
+  background: url('/image/WhatsApp\ Image\ 2022-12-27\ at\ 11.46.47\ AM.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.health-topic-navbar li{
+  background-color: rgb(143, 137, 224);
+  padding: 3px 3px;
+  list-style: none;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 0px;
+   border: solid;
+   margin-right: 40px;
+}
+
+.tab-h-t{
+  background-color: rgb(143, 137, 224);
+  padding: 3px 3px;
+  list-style: none;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: solid;
+  text-align: center;
+   
+}
+.health-topic-sub{
+  border:solid 2px ;
+  display:inline-block;
+  margin: 30px;
+}
+
+.health-topic-sub h4{
+  background-color: rgb(130, 247, 14);
+  display:inline-block;
+  border-width: 3px;  
+  margin-left: 45px;
+  margin-top: 40px;
+  font-size: 18px;
+  
+}
+
+.health-topic-sub ul li{
+  margin: 3px 3px;
+  list-style: none;
+  padding: 5px 5px;
+}
+
+.health-topic-sub ul li a{
+  text-decoration: none;
+}
+.health-topic-sub ul li a:hover{
+  text-decoration: underline;
+  color: rgb(220, 25, 191);
+}
+
+.health-topic-sub-1{
+  
+  border:solid 2px ;
+  display:inline-block;
+  margin:30px;
+  
+}
+
+.health-topic-sub-1 h4{
+  background-color: rgb(130, 247, 14);
+  display:inline-block;
+  border-width: 3px;  
+  margin-left: 45px;
+  margin-top: 40px;
+  font-size: 18px;
+  
+}
+
+.health-topic-sub-1 ul li{
+  margin: 3px 3px;
+  list-style: none;
+  padding: 10px 5px;
+}
+
+.health-topic-sub-1 ul li a{
+  text-decoration: none;
+}
+.health-topic-sub-1 ul li a:hover{
+  text-decoration: underline;
+  color: rgb(20, 15, 20);
+}
+
+.health-topic-sub-2{
+  
+  border:solid 2px ;
+  display:inline-block;
+  margin: 30px;
+  
+}
+
+.health-topic-sub-2 h4{
+  background-color: rgb(130, 247, 14);
+  display:inline-block;
+  border-width: 3px;  
+  margin-left: 45px;
+  margin-top: 40px;
+  font-size: 18px;
+  
+}
+
+.health-topic-sub-2 ul li{
+  margin: 3px 3px;
+  list-style: none;
+  padding: 15px 5px;
+}
+
+.health-topic-sub-2 ul li a{
+  text-decoration: none;
+}
+.health-topic-sub-2 ul li a:hover{
+  text-decoration: underline;
+  color: rgb(16, 160, 207);
+}
+
+
+
+/* HEALTH-TOPIC --- BRAIN & NARVE CSS FILE*/
+
+body .health_topic_brain{
+  background: url('/image/WhatsApp\ Image\ 2022-12-27\ at\ 11.46.47\ AM.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.navbar-1 {
+  background-color: rgb(0, 100, 0);
+  border-radius: 30px;
+  margin-top: 5px;
+}
+.navbar-1 li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+
+.navbar-1 ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  overflow:auto;
+}
+
+.navbar-1 ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.navbar-1 ul li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: azure;
+}
+.active , .navbar-1 ul li:hover {
+  background: #2bab0d;
+  border-radius: 3px;
+}
+
+.navbar-1 li a:hover {
+  color: chartreuse;
+  text-decoration:underline;
+  text-decoration-color: aliceblue;
+}
+
+.title-1{
+  background-color: #2bab0d;
+  border: #2031e3;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.container .img-1 img{
+  margin: 0;
+  width: 1530px;
+  height: 380px;
+  display: inline-block;
+}
+
+.title-2{
+  background-color: #5ae75a;
+  border: #2031e3;
+  text-align: center;
+  font-size: 30px;
+  margin:0;
+  color:white;
+}
+
+.content{
+  margin-top: 30px;
+  margin-left: 400px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 700px;
+  border: 2px solid black;
+  overflow: auto;
+  color: #fff;
+  font: bold;
+  font-size: 20px;
+  display: inline-block;
+  color: blue;
+  background-color: #fff;
+  
+}
+.content .img-2 img{
+  padding: 20px;
+   width: 500px;
+   height: 150px;
+}
+.content .q_1{
+  padding: 20px;
+}
+.content .q_2_content{
+
+  padding: 20px;
+}
+.content .q_2{
+  padding: 20px;
+}
+.content .q_3_content{
+
+  padding: 20px;
+}
+.content .q_3{
+  padding: 20px;
+}
+.content .q_4_content{
+
+  padding: 20px;
+}
+.content .q_4{
+  padding: 20px;
+}
+
+.content-1{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTi3sXpbjLkIZ8GG0gQt1sxpa-0uFZlAhGcIiVtxyAoDq4_Cg1GpiMCv4JsvuJ7M4cAYQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: #f0f5f0; */
+  margin-right: 3px;
+  margin-top: 30px;
+  margin-left:3px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1510px;
+  border: 2px solid rgb(87, 76, 76);
+  overflow: auto;
+  font: bold;
+  font-size: 20px;
+  display: inline-block;
+  color:white;
+  
+}
+.title-3{
+  background-color: rgb(18, 16, 78);
+  color: rgb(102, 224, 110);
+  font-size: 30px;
+}
+.title-4{
+  background-color: #5ae75a;
+  color:#fff;
+  
+}
+
+
+/* HEALTH-TOPIC-HEART  CSS FILE*/ 
+
+body .heart{
+  background-image:url(/image/heart_background.jpg)
+}
+
+.heart-1{
+  background-color: #fff;
+  /* background-image: url(https://www.narayanahealth.org/blog/wp-content/uploads/2020/05/shutterstock_604206542.jpg); */
+  background-repeat: no-repeat;
+  background-size: 1520px 1800px;
+  /* background: #f0f5f0; */
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-left:2px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1510px;
+  border: 2px solid rgb(87, 76, 76);
+  overflow: auto;
+  font: bold;
+  font-size: 20px;
+  display: inline-block;
+  color:rgb(6, 6, 4);
+}
+
+
+.content-heart{
+  margin-top: 50px;
+  margin-left: 50px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 900px;
+  border: 2px solid rgb(34, 20, 227);
+  overflow: auto;
+  color: #fff;
+  font: bold;
+  font-size: 20px;
+  display: inline-block;
+  color: blue;
+  background-color: #fff;
+  padding: 5px 5px;
+}
+.title-3-1{
+  background-color: #5ae75a;
+  color:#fff
+}
+.content-heart .P-1 a{
+  text-decoration:none;
+}
+
+.content-heart .P-1{
+  padding: 10px;
+}
+/* .content-heart .p_1 a:hover{
+  /* color: #53ed29; }*/
+  
+
+.vedio{
+  float: right;
+  margin-top: 50px;
+  margin-right: 30px;
+  list-style: none;
+  display:block;
+  border: 2px solid #53ed29;
+  border-radius:5px;
+  padding-right: 30px;
+}
+.vedio video{
+  border: 2px solid bisque;
+  border-radius: 10px;
+}
+
+.heart-1 .heart-rate img{
+
+  width:200px;
+  height:200px;
+  float: right;
+
+}
+.heart-rate{
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+.heart-function-1{
+ padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+
+
+/* HEALTH --- TOPIC --- BONES --- JOINTS  */
+
+.bones{
+
+  background-color: #fff;
+  border: 5px solid burlywood;
+  color: #030a01;
+  padding: 20px;
+  
+}
+.bones .title-b{
+  background-color: darkgrey;
+  font-size:40px ;
+  text-align: center;
+  color: rgb(1, 1, 5);
+  border-radius: 10px;
+  font-family:monospace ;
+  margin-top: 10px;
+}
+.title-b-1{
+  background-color: #5ae75a;
+  color: #fff;
+  font-size:20px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.human-skeleton-vedio .human-skeleton
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #5ae75a;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(5, 26, 67);
+}
+
+
+.human-skeleton-vedio video{
+
+  width: 700px;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: darkorange;
+  
+}
+
+
+.bones-1{
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px 10px;
+}
+.bones-1 img{
+  float: right;
+  height: 500px;
+}
+
+.hand-joints{
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px 10px;
+}
+
+.elbow-joints{
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px 10px;
+}
+.hand-joints-1{
+  background-color: #220170;
+  color: #fff;
+  font-size:20px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+.title-bones-1{
+  background-color: #7276f5;
+  color: #fff;
+  font-size:20px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.table table a{
+  color: #7276f5;
+  table-layout: auto;
+}
+.table table a:hover{
+  background-color: antiquewhite;
+  text-decoration: none;
+}
+.table table th{
+  background-color: antiquewhite;
+}
+.table table td{
+  padding: 5px;
+}
+
+
+
+
+/* HEALTH -- TOPIC -- SENSES -- CSS FILE */
+
+.senses
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #5ae75a;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(4, 18, 47);
+}
+.b-img img{
+  border-radius: 5px;
+  margin-top: 40px;
+  float: right;
+  width: 400px;
+  height: 240px;
+}
+
+.ear-1{
+  background-color: aliceblue;
+  color: #220170;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px 10px;
+}
+.et-1{
+  font-family:serif;
+  font-size: 20px;
+  background-color: #5ae75a;
+  color: #030423;
+  padding : 5px 5px;
+  border: solid 2px aqua;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.et-2{
+  font-family:serif;
+  padding: 5px 5px;
+  font-size: 20px;
+  background-color: #4be7ff;
+  color: #080b4e;
+  border:2px #4be7ff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ear-1 .img-1 img{
+  border-radius: 5px;
+  float: right;
+  width: 400px;
+  height: 600px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 3px solid #5ae75a;
+}
+
+.ear-1 .img-2 img{
+  border-radius: 5px;
+  float: right;
+  width: 500px;
+  height: 600px;
+  border: 3px solid #ff5af4;
+  margin-top: 40px;
+}
+
+.img-vedio .img-3 img{
+ 
+  border-radius: 5px;
+  float: left;
+  width: 500px;
+  height: 700px;
+  border: 3px solid #ff5af4;
+  margin-left: 50px;
+  
+}
+.ear-1 fieldset .vedio-1 video{
+  margin-left: 50px;
+  width: 700px;
+  height: 400px;
+  margin-top: 10px;
+  position: relative;
+  border: 2px solid violet;
+  border-radius: 10px;
+  margin-right: 80px;
+  float: right;
+}   
+
+.img-vedio .img-4 img{
+ 
+  border-radius: 5px;
+  float: right;
+  width: 700px;
+  height: 400px;
+  border: 3px solid #ff5af4;
+  margin-right:80px ;
+  
+}
+
+.n-t-1{
+  font-size: 20px;
+  text-decoration: underline rgb(73, 255, 63);
+ font-style: normal;
+ font-family:cursive;
+  color: #040631;
+}
+
+.n-t-2{
+  font-size: 20px;
+  text-decoration: underline rgb(73, 255, 63);
+ font-style: normal;
+ font-family:cursive;
+  color: #040631;
+}
+
+
+.nose-1 {
+  font-size: 20px;
+  text-decoration: underline rgb(73, 255, 63);
+ font-style: normal;
+ font-family:cursive;
+  color: #141dd0;
+}
+
+.nose-1 ul li {
+  font-size: 20px;
+  text-decoration: underline rgb(73, 255, 63);
+  font-style: normal;
+  font-family:cursive;
+  color: #0a0c3d;
+}
+
+.ear-1 img{
+
+  height:500px;
+}
+
+
+
+.throat{
+  
+  background-color: white;
+  color: #030a01; 
+}
+
+.throat-t-1{
+  margin-bottom: 10px;
+  margin-top:10px;
+  background-color: #5ae75a;
+  color: #030a01;
+}
+.t-1{
+  margin-top:5px;
+  background-color: #7276f5;
+  color: #ff5af4;
+}
+.th-1{
+  font-family:cursive;
+  font-size: 20px;
+  text-decoration: underline solid greenyellow;
+}
+
+.throat .t-1 img{
+  margin-top: 50px;
+  width: 500px;
+}
+
+.throat-2 ul li{
+  color: #030a01;
+}
+
+.bones{
+  margin-top: 10px;
+}
+
+
+
+.eyes{
+  background-color: #030a01;
+
+}
+
+
+.E-title{
+  color: #53ed29;
+  background-color: antiquewhite;
+  padding:10px;
+  border-radius: 3px;
+  font-family: cursive;
+  text-align: center;
+  font-size: 40px;
+}
+.E-title img{
+ float:right;
+ width: 100px;
+}
+
+.et-1{
+  background-color: #b2ff00;
+  color: rgb(11, 19, 53);
+}
+
+.E-1{
+  display: inline-block;
+  background-color: beige;
+  color: rgb(72, 72, 240);
+  font-size: 20px;
+  font-family: cursive;
+  text-decoration: underline solid rgb(65, 230, 239);
+}
+
+.e-1 ul li{
+  color: aliceblue;
+
+}
+.e-1{
+  
+  color: antiquewhite;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.eyes img{
+  margin-top: 50px;
+  width: 400px;
+  height: 500px;
+  float: right;
+  margin-right: 20px;
+}
+
+fieldset video{
+  border: 2px #eff4ed;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  height: 281px;
+}
+
+fieldset ul li{
+  float: right;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.eye-care{
+  background-color: antiquewhite;
+  color: #040631;
+
+}
+.eye-care-t-1{
+  font-family: cursive;
+  text-align: center;
+ font-size: 30px;
+  background-color: #5ae75a;
+  color: #030a01;
+}
+.eye-care ul li{
+  font-size: 20px;
+  padding: 2px;
+  color: #1620d7;
+}
+
+.p-1{
+  color: #02053b;
+}
+.E-2{
+  
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: #2409c1;
+  
+}
+.e-image img{
+  border-radius: 5 px;
+  margin-top: 20px;
+  width: 382px;
+  height: 170px;
+  float: right;
+}
+
+.yoga-info{
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  background-color: #89f873;
+  color: #0a0627;
+  display: inline-block;
+}
