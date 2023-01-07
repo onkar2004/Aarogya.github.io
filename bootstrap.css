@@ -1091,3 +1091,105 @@ fieldset ul li{
   color: #0a0627;
   display: inline-block;
 }
+/* YOGA - INFORMATION CSS-FILE */
+
+.yoga-info{
+ 
+  font-size: 20px;
+  background-color: antiquewhite;
+  color: #02032a;
+  display: inline-block;
+}
+
+.yoga-head-title-1{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align:center;
+  font-family: cursive;
+  font-size: 30px;
+  background-color: #5ae75a;
+  color: #021a84;
+}
+.yoga-head-title{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  color:gold;
+}
+.yoga-head-1 .block-right{
+  float: right;
+}
+
+.yoga-block-left ul {
+  list-style: none;
+}
+.yoga-block-left ul li a {
+  font-size: 20px;
+  padding: 3px 3px;
+  text-decoration: none;
+  color: rgb(56, 237, 40);
+}
+.yoga-block-left ul li a:hover {
+  color: #f1f132;
+}
+.yoga-block-left ul li {
+ 
+  margin: 15px;
+  padding: 10px;
+}
+.yoga-block-left ul li a {
+  padding: 3px 3px;
+  text-decoration: none;
+}
+.yoga-block-left ul li:hover {
+  background-color: rgb(83, 71, 216);
+  border-radius: 3px;
+}
+
+.yoga-block-left{
+    float: right;
+    margin-right: 100px;
+}
+.yoga-block-right ul {
+    list-style: none;
+  }
+  .yoga-block-right ul li a {
+    font-size: 20px;
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(56, 237, 40);
+  }
+  .yoga-block-right ul li a:hover {
+    color: #f1f132;
+  }
+  .yoga-block-right ul li {
+   
+    margin-left: 100px;
+    padding: 15px;
+  }
+  .yoga-block-right ul li a {
+    padding: 3px 3px;
+    text-decoration: none;
+  }
+  .yoga-block-right ul li:hover {
+    display: inline-block;
+    background-color: rgb(83, 71, 216);
+    border-radius: 3px;
+  }
+
+  .yoga-block-left ul li .image-yoga-1 img{
+   width:303px;
+   height: 158px;
+  }
+
+  .yoga-block-right ul li .image-yoga-1 img{
+    width:303px;
+    height: 158px;
+   }
+
+  .yoga-head{
+    background-color: antiquewhite;
+  }
+
