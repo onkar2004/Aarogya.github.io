@@ -13,6 +13,7 @@ body{
 }
 
 
+
 .menu-bar {
   background-color: rgb(0, 100, 0);
   border-radius: 30px;
@@ -310,15 +311,35 @@ fieldset .cancer_1 a .cancer_2:hover{
 /* 
 HEALTH TOPIC CSS FILE */
 
-body .health_topic{
-  background: url('/image/WhatsApp\ Image\ 2022-12-27\ at\ 11.46.47\ AM.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+.health-topic-sub{
+  margin: 30px;
+  border:solid 2px ;
+  display:inline-block;
+  width: 400px;
   font-family: sans-serif;
-  padding: 0;
-  margin: 0;
+  background-color:#fff ;
+}
+
+.health-topic-sub-1{
   
+  margin-top: 30px;
+  margin-left: 50px;
+  border:solid 2px ;
+  display:inline-block;
+  width: 400px;
+  font-family: sans-serif;
+  background-color:#fff ;
+}
+
+.health-topic-sub-2{
+  float: right;
+  margin-left: 30px;
+  margin-right: 100px;
+  margin-top: 30px;
+  border:solid 2px ;
+  width: 400px;
+  font-family: sans-serif;
+  background-color:rgb(246, 242, 247) ;
 }
 
 
@@ -328,7 +349,6 @@ body .health_topic{
   list-style: none;
   font-size: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   margin-left: 0px;
    border: solid;
    margin-right: 40px;
 }
@@ -343,11 +363,6 @@ body .health_topic{
   text-align: center;
    
 }
-.health-topic-sub{
-  border:solid 2px ;
-  display:inline-block;
-  margin: 30px;
-}
 
 .health-topic-sub h4{
   background-color: rgb(130, 247, 14);
@@ -360,6 +375,7 @@ body .health_topic{
 }
 
 .health-topic-sub ul li{
+  font-size: 20px;
   margin: 3px 3px;
   list-style: none;
   padding: 5px 5px;
@@ -373,25 +389,18 @@ body .health_topic{
   color: rgb(220, 25, 191);
 }
 
-.health-topic-sub-1{
-  
-  border:solid 2px ;
-  display:inline-block;
-  margin:30px;
-  
-}
-
 .health-topic-sub-1 h4{
   background-color: rgb(130, 247, 14);
   display:inline-block;
   border-width: 3px;  
-  margin-left: 45px;
-  margin-top: 40px;
+  margin-left: 45px; 
   font-size: 18px;
   
 }
 
 .health-topic-sub-1 ul li{
+  
+  font-size: 20px;
   margin: 3px 3px;
   list-style: none;
   padding: 10px 5px;
@@ -409,8 +418,6 @@ body .health_topic{
   
   border:solid 2px ;
   display:inline-block;
-  margin: 30px;
-  
 }
 
 .health-topic-sub-2 h4{
@@ -418,15 +425,15 @@ body .health_topic{
   display:inline-block;
   border-width: 3px;  
   margin-left: 45px;
-  margin-top: 40px;
   font-size: 18px;
   
 }
 
 .health-topic-sub-2 ul li{
+  font-size: 20px;
   margin: 3px 3px;
   list-style: none;
-  padding: 15px 5px;
+  padding: 10px 5px;
 }
 
 .health-topic-sub-2 ul li a{
@@ -1081,16 +1088,7 @@ fieldset ul li{
   float: right;
 }
 
-.yoga-info{
-  margin-top: 30px;
-  font-size: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 5px;
-  background-color: #89f873;
-  color: #0a0627;
-  display: inline-block;
-}
+
 /* YOGA - INFORMATION CSS-FILE */
 
 .yoga-info{
@@ -1107,15 +1105,16 @@ fieldset ul li{
   text-align:center;
   font-family: cursive;
   font-size: 30px;
-  background-color: #5ae75a;
-  color: #021a84;
+  background-color: #f0f6f0;
+  color: rgb(53, 248, 69);
+  border-bottom: #030a01 2px solid;
 }
 .yoga-head-title{
   
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   display: inline-block;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(3, 2, 16);
   color:gold;
 }
 .yoga-head-1 .block-right{
@@ -1190,6 +1189,633 @@ fieldset ul li{
    }
 
   .yoga-head{
-    background-color: antiquewhite;
+   background-color:beige;
   }
+
+  .backpain{
+    background-color:beige;
+  }
+
+  .backpain .backpain-1 ul li
+{
+  color: #0d0346;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 200px;
+ font-weight: 400;
+ font: 30px;
+}
+
+  .backpain .backpain-1 video{
+   border-bottom: 2px solid rgb(20, 237, 20);
+  }
+ .backpain .asan-info ul li{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font: 30px;
+  padding: 5px;
+  margin-left: 200px;
+  }
+  .asan-info{
+    width: 600px; ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 30px;
+    padding: 5px;
+    margin-left: 200px;  
+  }
+
+  .backpain video{
+    margin-left: 200px;
+    width:600px ;
+    height: 303px;
+    margin-top: 20px;
+    border-bottom: #08f508 3px solid;
+  }
+
+
+  .nackpain{
+    background-color:beige;
+  }
+
+  .nackpain .nackpain-1 video{
+    margin-left: 200px;
+    width:600px ;
+    height: 303px;
+    margin-top: 20px;
+    border-bottom: #08f508 3px solid;
+    /* border: 2px solid rgb(255, 80, 223);
+    border-radius: 5px; */
+  }
+ .nackpain .asan-info-nackpain ul li{
+    float: left;
+    font: 60px;
+  }
+  .asan-info-nackpain{
+    width: 600px;  
+  }
+
+  .nackpain video{
+   
+    width:600px ;
+  }
+  .asana-title{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    background-color:aqua;
+    color: #0c0227;
+  }
+
+  .asan-info-nackpain{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 30px;
+    padding: 5px;
+    margin-left: 200px;
+  }
+  .title-nack{
+    padding:5px;
+    color:rgb(253, 22, 195);
+    background-color:chartreuse;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+   .yoga-topic2{
+    float: right;
+  }
+
+    /* YOGA-POSE FOR HEALTHY-HEART */
+
+    /* nav {
+      background-color: azure;
+      border: 2px solid rgb(27, 238, 27);
+      border-radius: 3px;
+    }
+    nav ul{
+      display: inline-flex;
+    }
+    nav li{
+      list-style: none;
+      padding-left: 30px;
+      margin: 30px 7px;
+      float: left;
+      font-size: 20px;
+      color: #f1f132;
+    }
+    nav li a{
+      text-decoration: none;
+      color: darkorange;
+    }
+    nav ul li a:hover{
+      color: #2bfa2b;
+    } */
+.yoga-heart{
+  background-color: rgb(240, 144, 18);
+  border: 2px solid;
+  border-radius: 5px;
+}
+.yoga-h h4{
+  text-align: center;
+  background-color:lemonchiffon ;
+  color: orange;
+  font-size: 30px;
+  font-family: cursive;
+}
+.healtyheart-pose{
+  margin-left: 300px;
+  width: 900px;
+  background-color:khaki;
+  border: 2px solid papayawhip;
+}
+.p1{
+  margin: 30px;
+  background-color:rgb(255, 224, 183);
+}
+.p1 .pt{
+  background-color: rgb(220, 235, 221);
+  font-size: 20px;
+  color:#e7521b;
+  font-family: cursive;
+}
+.pins{
+  margin-top: 20px;
+  margin-right: 100px;
+  color: #11013d;
+  font-family:cursive;
+  float: right;
+  padding: 3px 3px;
+  width: 300px;
+}
+.p1 img{
+  padding: 10px 10px;
+  width: 300px;
+  height: 200px;
+}
+
+  /* YOGA-POSE FOR Healthy - Brain */
+
+.referance{
+  display: block;
+  float: right;
+}
+.referance a{
+  text-decoration: none;
+  color: #f130de;
+}
+.title-yb h3{
+  background-color: bisque;
+  color: #13f213;
+  text-align: center;
+  font-size: 30px;
+}
+
+.brain-yoga{
+  background-color: rgb(251, 237, 182);
+}
+.brain-yoga-pose{
+  background-color: rgb(234, 160, 70);
+}
+
+.p1-b{
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 30px;
+  margin-left:200px ;
+  width: 800px;
+  background-color: rgb(223, 223, 204);
+}
+
+.p1-b img{
+  width: 300px;
+  height: 250px;
+}
+
+
+
+.ptb{
+  color: rgb(88, 239, 54);
+  font-size: 20px;
+  font-family: cursive;
+}
+.pbins ul li{
+  color: rgba(49, 48, 55, 0.963);
+}
+
+    /* pose for yoga-Dibetes */
+
+.yoga-dibetes{
+  background-color: antiquewhite;
+}
+.title-dibetes{
+  background-color: #86ebf4;
+  color: rgb(234, 94, 13);
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.refrance{
+  background-color: #d38dcc;
+  color: #08f508;
+  float:right;
+  display:inline-block;
+}
+.yogapose-dibetes{
+  background-color: rgb(249, 217, 175);
+ 
+}
+.yogapose-dibetes{
+  background-color: blanchedalmond;
+  /* border: 3px solid rgb(247, 121, 142); */
+  /* margin: 30px; */
+  padding: 3px 3px;
+}
+.yoga-posedibetes1{
+  margin-left: 50px;
+  background-color: rgb(200, 186, 186);
+  width: 1000px;
+}
+.ypdit{
+  background-color: rgb(135, 219, 252);
+  border: 2px solid rgb(79, 235, 79);
+  border-radius: 3px;
+  color: rgb(6, 23, 75);
+  font-size: 20px;
+  font-family: cursive;
+}
+.yoga-posedibetes1 video{
+  width: 700px;
+  height: 400px;
+  margin: 10px;
+}
+.ypinfo{
+  color: #050616;
+  font-weight: 100;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Musclesworked{
+  margin-left: 50px;
+ 
+}
+.Musclesworked ul li{
+  color: black;
+  font-weight: 300;
+  font-family: cursive;
+}
+.todothis{
+  margin-left: 20px;
+}
+.todothis ol li{
+  color: #0c0227;
+  font-weight: 300;
+  font-family: cursive;
+}
+.searchbutton{
+  background: orange;
+  display: inline-block;
+  color: #0edfff;
+}
+
+
+/* KOlhapur hospital */
+.pune{
+  background-color:white;
+}
+.contactp{
+margin-bottom: 10px;
+ height: 50px;
+  border: 2px solid black;
+}
+.homep{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+  height: 50px;
+  border: 2px solid black;
+}
+.hospitaltype{
+  /* background-color: #dacfbe; */
+  margin-top: 10px;
+  /* border: 2px solid black; */
+  display: inline-block;
+  width: 1300px;
+  margin-left: 100px;
+ 
+}
+.hospitaltype ul{
+  list-style: none;
+}
+.hospitaltype .s1{
+  margin-top: 20px;
+  display: inline-block;
+  color: rgb(246, 126, 41);
+  background-color:rgb(229, 245, 205);
+  margin-right: 20px;
+  border: 4px double pink;
+  text-align: center;
+  font-size: 25px;
+  font-family:cursive;
+  
+}
+.hospitaltype .h1{
+  text-align: center;
+  width: 500px;
+  margin-left: 50px;
+  color: #10ff10;
+  font-size: 50px;
+}
+.hospitaltype .s1 a{
+  text-decoration: none;
+  color: #0c0227;
+}
+.hospital-k-info{
+  padding: 3px 3px;
+  font-size: 20px;
+  font-weight:500;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 900px;
+  margin-left: 30px;
+}
+.h1{
+  padding: 10px 10px;
+  background-color:rgb(242, 203, 209);
+  margin: 10px;
+  margin-left: 150px;
+  width: 900px;
+  /* border: 2px solid black; */
+  font-weight: 500;
+  font-size: 20px;
+  font-family: cursive;
+  border-bottom: 4px double rgb(102, 246, 50);
+}
+.puneimage img{
+ 
+  width: 1510px;
+  height: 500px;
+  /* border: 2px solid black; */
+  border-radius: 3px;
+}
+.cancer-hospital{
+  background-color: rgb(239, 219, 189);
+}
+.nav1{
+  background-color: #afe5ed;
+  height: 60px;
+  /* border: 2px solid black; */
+}
+.nav2{
+  margin-top: 10px;
+  background-color: #afe5ed;
+  height: 60px;
+  /* border: 2px solid black; */
+}
+.chtitle{
+  text-align: center;
+  background-color: azure;
+  /* border: 2px solid black; */
+  color: black;
+}
+.navimage img{
+  width: 100%;
+  height: 400px;
+  /* border: 2px solid black; */
+  margin-top: 10px;
+}
+
+.chospital{
+  width: 1200px;
+  margin-left: 100px;
+}
+.ch1{
+  border-bottom: 7px double rgb(77, 255, 46);
+  height: 550px;
+  margin-top: 20px;
+  background-color: #f0f6f0;
+  /* border: 2px solid black; */
+}
+.ch1 img{
+  border: 4px double pink;
+  margin-left: 20px;
+  width: 500px;
+  height: 400px;
+
+}
+
+.chinfo{
+  /* border: 2px solid black;   */
+  font-size: 20px;
+  font-family: cursive;
+}
+.details{
+  
+  background-color: #99dce0;
+  margin-right: 200px;
+  float: right;
+  /* border: 2px solid black; */
+  width: 400px;
+  height:450px ;
+}
+.details .chaddress{
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.chaddress{
+  /* float: right; */
+  /* margin-right: 200px; */
+  /* width: 400px;
+  height:200px ; */
+  /* border: 2px solid greenyellow; */
+  font-weight: bold;
+}
+.moreinfo{
+  float: right;
+  border: 2px solid pink;
+  font-family: 'Times New Roman', Times, serif;
+}
+.ch1 .chaddress{
+  float: right;
+}
+.chfooter{
+  border: 2px solid black;
+  margin-top: 30px;
+}
+.image-allhospital img{
+  margin-top: 20px;
+  width: 700px;
+  height: 250px;
+  margin-left: 150px;
+}
+.h1 h4{
+  background-color: #fefb2e;
+  display: inline-block;
+}
+
+.govermenttitle h2{
+  background-color: aliceblue;
+  color: #030a01;
+  font-size: 30px;
+  padding-left: 30px;
+}
+.hospitalkolhapurimg img{
+  margin-right: 50px;
+  float: right;
+  /* border: 2px solid black; */
+  width: 600px;
+  height: 400px;
+}
+.homep{
+  text-align: center;
+  font-size: 50px;
+  color: #08f508;
+  font-weight: bolder;
+}
+ .navkolhapur {
+  background-color: #f4f7f4;
+  color: #7276f5;
+  font-size: 20px;
+}
+.navkolhapur ul{
+  display:flex;
+}
+.navkolhapur ul li{
+  margin-top: 0px;
+  list-style: none;
+  padding: 10px ;
+  color: #040941;
+  font-size: 20px;
+}
+.addressstitle{
+  font-size: 30px;
+  color: #050616;
+  font-family: 'Times New Roman', Times, serif;
+}
+.ch1-contact{
+  font-size: 30px;
+  color: #050616;
+  font-family: 'Times New Roman', Times, serif;
+}
+.ch1-email
+{ 
+ 
+  height: 30px;
+  border: 2px solid black;
+  font-size: 20px;
+  background-color: #c9bad4;
+  color: #0b103f;
+}
+.emergence{
+  height: 30px;
+  border: 2px solid black;
+  font-size: 20px;
+  background-color:#c9bad4;
+  color: #05042c;
+}
+.helpline{
+  height: 30px;
+  border: 2px solid black;
+  font-size: 20px;
+  background-color: #c9bad4;
+  color: #070d2d;
+}
+.cancer-hospital{
+  background-color: rgb(241, 200, 176);
+}
+.ch1 h3{
+  background-color: greenyellow;
+  font-size: 25px;
+  font-family: cursive;
+  color: #070d2d;
+}
+.chtitle h2{
+  font-size: 30px;
+  color: rgb(222, 45, 204);
+}
+.nav1{
+  background-color: white;
+}
+.nav1 ul{
+  display: flex;
+}
+.nav1 ul li{
+  list-style: none;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: #7276f5;
+}
+.nav2{
+  padding-top: 15px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f130de;
+}
+
+/* details of hospitals */
+.detailinfo-hospital{
+  background-color: white;
+}
+.dhinfo{
+  margin: 30px;
+  border: 2px solid black;
+}
+.dh-home{
+  border: 2px solid black;
+}
+.hosname{
+  height: 30px;
+  border: 2px solid black;
+  text-align: center;
+}
+.dimage{
+  border: 2px solid black;
+  width: 100%;
+  height: 400px;
+}
+.address-1{
+  background-color: whitesmoke;
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.contact-1{
+  background-color: whitesmoke;
+  font-size: 30px;
+  margin-right: 200px;
+  width: 400px;
+  height: 300px;
+  float: right;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.timeslot-1{
+  height: 200px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.avalibility-1{
+  
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.deparment-1{
+ 
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.spacialdoctors{
+  
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
 
